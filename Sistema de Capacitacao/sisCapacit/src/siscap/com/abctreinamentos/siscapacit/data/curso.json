@@ -1,0 +1,49 @@
+[
+    {
+        "idcurso": 1,
+        "nome": "BootCamp desenvolvimento Python",
+        "foto": "https://www.abctreinamentos.com.br/imgs/cursos/webdevelopment.png",
+        "formarealizacao": "EAD",
+        "ofertante": "Ironhack",
+        "vagas": 50,
+        "valor": 20000.0,
+        "site": "https://www.ironhack.com/en/ewb-development",
+        "situacao": "Inscrições Abertas"
+    },
+
+    {
+        "idcurso": 2,
+        "nome": "BootCamp desenvolvimento Java",
+        "foto": "https://www.abctreinamentos.com.br/imgs/cursos/webdevelopment.png",
+        "formarealizacao": "EAD",
+        "ofertante": "PUC",
+        "vagas": 53,
+        "valor": 20000.0,
+        "site": "https://www.ironhack.com/en/ewb-development",
+        "situacao": "Inscrições Abertas"
+    },
+
+    {
+        "idcurso": 3,
+        "nome": "BootCamp desenvolvimento JavaScript",
+        "foto": "https://www.abctreinamentos.com.br/imgs/cursos/webdevelopment.png",
+        "formarealizacao": "EAD",
+        "ofertante": "Faculdade Catolica",
+        "vagas": 40,
+        "valor": 20000.0,
+        "site": "https://www.ironhack.com/en/ewb-development",
+        "situacao": "Inscrições Abertas"
+    },
+
+    {
+        "idcurso": 4,
+        "nome": "BootCamp desenvolvimento Html/CSS",
+        "foto": "https://www.abctreinamentos.com.br/imgs/cursos/webdevelopment.png",
+        "formarealizacao": "EAD",
+        "ofertante": "UFMA",
+        "vagas": 60,
+        "valor": 20000.0,
+        "site": "https://www.ironhack.com/en/ewb-development",
+        "situacao": "Inscrições Abertas"
+    }
+]

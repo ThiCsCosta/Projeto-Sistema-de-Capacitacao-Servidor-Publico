@@ -1,11 +1,43 @@
-package siscap;
+package siscap.esbolso;
 
 // ENCAPSULAMENTO POO
 
-import javax.xml.transform.stream.StreamSource;
-
 public class ServidorPublico {
-    // ************ ATRIBUTOS *************
+/************* CRAINDO OS CONSTRUTORES PARA OS ATRIBUTOS ABAIXO **************/
+
+    public ServidorPublico(int matricula, String nome, String cpf) {
+        this.matricula = matricula;
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+ /************************** CONSTRUTOR COMPLETO **************************/
+
+    public ServidorPublico(int matricula, String nome, String cpf,
+                           String naturalidade, String foto, String email,
+                           String telefone, String celular, String orgao,
+                           String vinculo, double salario, int idade,
+                           int tempoContribuicao, String cargo, String lotacao,
+                           String exercicio) {
+        this.matricula = matricula;
+        this.nome = nome;
+        this.cpf = cpf;
+        this.naturalidade = naturalidade;
+        this.foto = foto;
+        this.email = email;
+        this.telefone = telefone;
+        this.celular = celular;
+        this.orgao = orgao;
+        this.vinculo = vinculo;
+        this.salario = salario;
+        this.idade = idade;
+        this.tempoContribuicao = tempoContribuicao;
+        this.cargo = cargo;
+        this.lotacao = lotacao;
+        this.exercicio = exercicio;
+    }
+/******************************************************************************/
+
+// ************ ATRIBUTOS *************
 //Criar todos os ATRIBUTOS da Classe ServidorPublico
 
     private int matricula;
@@ -124,9 +156,12 @@ public class ServidorPublico {
     }
 
 /********************** CRIANDO O MÉTODO calcularSalarioHoraExtra **********************/
-    public double calcularSalarioHorasExtras(int horasTrabalhadas){
-        double salarioMensal = salario + horasTrabalhadas * 40;
-        return (salarioMensal);
+    public double calcularSalarioHorasExtras(int... horasTrabalhadas){
+
+        double salarioMensal =0;
+        for (int horasExtras : horasTrabalhadas)
+            salarioMensal = salarioMensal + horasExtras * 40;
+        return (salario + salarioMensal);
     }
 
     public static void main(String[] args) {
@@ -135,28 +170,14 @@ public class ServidorPublico {
 
 // Atribuir valores aos ATRIBUTOS dos objetos Servidores Públicos criados.
 
-        ServidorPublico isabela = new ServidorPublico(); // primeiro obj criado
-        isabela.setMatricula(1);
-        isabela.setNome("Isabela Sampaio");
-        isabela.setCpf("000.101.224-23");
+        ServidorPublico isabela = new ServidorPublico(1, "Isabela Sampaio", "000.101.224-23"); // primeiro obj criado
         isabela.setSalario(10000);
-        System.out.println(isabela.calcularSalarioHorasExtras(10));
+        System.out.println(isabela.calcularSalarioHorasExtras(8,10,0,15));
 
+        ServidorPublico heila = new ServidorPublico(2, "Heila Glasser", "445.665.222-00"); // segundo obj criado
+        ServidorPublico mariah = new ServidorPublico(3, "Mariah Santos", "774.556.333-45"); // terceiro obj criado
+        ServidorPublico isaac = new ServidorPublico(4, "Isaac Lopes", "223.448.998-12"); // quarto obj criado
 
-        ServidorPublico heila = new ServidorPublico(); // segundo obj criado
-        heila.setMatricula(2);
-        heila.setNome("Heila Glasser");
-        heila.setCpf("445.665.222-00");
-
-        ServidorPublico mariah = new ServidorPublico(); // terceiro obj criado
-        mariah.setMatricula(3);
-        mariah.setNome("Mariah Santos");
-        mariah.setCpf("774.556.333-45");
-
-        ServidorPublico isaac = new ServidorPublico(); // quarto obj criado
-        isaac.setMatricula(4);
-        isaac.setNome("Isaac Lopes");
-        isaac.setCpf("223.448.998-12");
 
 
 

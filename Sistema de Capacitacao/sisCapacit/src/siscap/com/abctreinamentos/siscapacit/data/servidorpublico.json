@@ -1,0 +1,66 @@
+[
+    
+    {
+        "matricula": 1,
+        "nome": "Caio Sampaio",
+        "foto": "https://www.abctreinamentos.com.br/imgs/caio.png",
+        "orgao": "RFB",
+        "vinculo": "Estagiário",
+        "cargo": "Analista Tributário",
+        "lotacao": "Rio de Janeiro",
+        "exercicio": "Departamento de TI",
+        "email": "caiosampaio@rfb.gov.br",
+        "telefone": "(21) 2223-3556",
+        "celular": "(21) 98888-9999",
+        "cpf": "123.456.789-10",
+        "naturalidade": "Niteroi" 
+    },
+    {
+        "matricula": 2,
+        "nome": "Antonio",
+        "foto": "https://www.abctreinamentos.com.br/imgs/antonio.png",
+        "orgao": "RFB",
+        "vinculo": "Estagiário",
+        "cargo": "Analista Tributário",
+        "lotacao": "Rio de Janeiro",
+        "exercicio": "Departamento de TI",
+        "email": "caiosampaio@rfb.gov.br",
+        "telefone": "(21) 2223-3556",
+        "celular": "(21) 98888-9999",
+        "cpf": "123.456.789-10",
+        "naturalidade": "Niteroi" 
+    },
+    {
+        "matricula": 3,
+        "nome": "Heila Hass",
+        "foto": "https://www.abctreinamentos.com.br/imgs/heila.png",
+        "orgao": "ENAP",
+        "vinculo": "Auditor Fiscal",
+        "cargo": "Analista Tributário",
+        "lotacao": "Rio de Janeiro",
+        "exercicio": "Departamento de TI",
+        "email": "caiosampaio@rfb.gov.br",
+        "telefone": "(21) 2223-3556",
+        "celular": "(21) 98888-9999",
+        "cpf": "123.456.789-10",
+        "naturalidade": "Niteroi" 
+    },
+    {
+        "matricula": 4,
+        "nome": "Isabela Costa",
+        "foto": "https://www.abctreinamentos.com.br/imgs/isabela.png",
+        "orgao": "RFB",
+        "vinculo": "Analista",
+        "cargo": "Analista Tributário",
+        "lotacao": "Rio de Janeiro",
+        "exercicio": "Departamento de TI",
+        "email": "caiosampaio@rfb.gov.br",
+        "telefone": "(21) 2223-3556",
+        "celular": "(21) 98888-9999",
+        "cpf": "123.456.789-10",
+        "naturalidade": "Niteroi" 
+    }
+    
+
+]
+
